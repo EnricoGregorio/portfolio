@@ -63,21 +63,21 @@ export default function Header() {
         <Link
           href="#sobre"
           onClick={() => setopenMenu(false)}
-          className="py-3 text-xl w-full text-center hover:text-primary transition-colors"
+          className="py-3 text-xl w-full text-default text-center hover:text-primary transition-colors"
         >
           Sobre
         </Link>
         <Link
           href="#projetos"
           onClick={() => setopenMenu(false)}
-          className="py-3 text-xl w-full text-center hover:text-primary transition-colors"
+          className="py-3 text-xl w-full text-default text-center hover:text-primary transition-colors"
         >
           Projetos
         </Link>
         <Link
           href="#contato"
           onClick={() => setopenMenu(false)}
-          className="py-3 text-xl w-full text-center hover:text-primary transition-colors"
+          className="py-3 text-xl w-full text-default text-center hover:text-primary transition-colors"
         >
           Contato
         </Link>
