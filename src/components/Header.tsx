@@ -15,7 +15,7 @@ export default function Header() {
         {/* Logo */}
         <Link
           href="/"
-          className="text-3xl font-bold font-mono tracking-tighter"
+          className="text-default text-3xl font-bold font-mono tracking-tighter"
         >
           <span className="text-primary">E</span>nrico
         </Link>
