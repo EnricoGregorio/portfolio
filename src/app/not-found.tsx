@@ -23,7 +23,7 @@ export default function NotFound() {
       {/* O componente Link do Next.js garante uma navegação instantânea no lado do cliente (SPA). */}
       <Link
         href="/"
-        className="flex items-center gap-3 bg-background-secondary text-primary px-8 py-4 rounded-2xl font-bold hover:bg-primary hover:text-default hover:-translate-y-1 transition-all duration-300 shadow-lg"
+        className="flex items-center gap-3 bg-secondary text-primary px-8 py-4 rounded-2xl font-bold hover:bg-primary hover:text-default hover:-translate-y-1 transition-all duration-300 shadow-lg"
       >
         <FontAwesomeIcon icon={faHouse} className="w-5 h-5" />
         Voltar para o Início
